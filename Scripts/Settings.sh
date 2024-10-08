@@ -21,6 +21,13 @@ echo "CONFIG_LUCI_LANG_zh_Hans=y" >> ./.config
 echo "CONFIG_PACKAGE_luci-theme-$WRT_THEME=y" >> ./.config
 echo "CONFIG_PACKAGE_luci-app-$WRT_THEME-config=y" >> ./.config
 
+
+echo "CONFIG_PACKAGE_kmod-rkp-ipid=y" >> ./.config
+echo "CONFIG_PACKAGE_ua2f=y" >> ./.config
+echo "CONFIG_PACKAGE_kmod-ipt-u32=y" >> ./.config
+echo "CONFIG_PACKAGE_kmod-ipt-ipopt=y" >> ./.config
+
+
 #手动调整的插件
 if [ -n "$WRT_PACKAGE" ]; then
 	echo "$WRT_PACKAGE" >> ./.config
