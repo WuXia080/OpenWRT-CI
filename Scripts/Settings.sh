@@ -26,6 +26,13 @@ echo "CONFIG_PACKAGE_kmod-rkp-ipid=y" >> ./.config
 echo "CONFIG_PACKAGE_ua2f=y" >> ./.config
 echo "CONFIG_PACKAGE_kmod-ipt-u32=y" >> ./.config
 echo "CONFIG_PACKAGE_kmod-ipt-ipopt=y" >> ./.config
+echo "CONFIG_PACKAGE_openssh-sftp-server=y" >> ./.config
+echo "CONFIG_PACKAGE_luci-app-dockerman=y" >> ./.config
+echo "CONFIG_PACKAGE_iptables-mod-filter=y" >> ./.config
+echo "CONFIG_PACKAGE_iptables-mod-ipopt=y" >> ./.config
+echo "CONFIG_PACKAGE_iptables-mod-u32=y" >> ./.config
+echo "CONFIG_PACKAGE_luci-app-wrtbwmon=y">>./.config
+
 
 
 #手动调整的插件
