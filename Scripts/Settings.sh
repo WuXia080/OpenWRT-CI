@@ -32,6 +32,7 @@ echo "CONFIG_PACKAGE_iptables-mod-filter=y" >> ./.config
 echo "CONFIG_PACKAGE_iptables-mod-ipopt=y" >> ./.config
 echo "CONFIG_PACKAGE_iptables-mod-u32=y" >> ./.config
 echo "CONFIG_PACKAGE_luci-app-wrtbwmon=y">>./.config
+echo "CONFIG_PACKAGE_iptables-mod-conntrack-extra=y" >> ./.config
 
 
 
